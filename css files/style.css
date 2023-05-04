@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Lora:ital@1&family=Righteous&family=Roboto+Mono&family=Roboto:wght@300&display=swap');
+.nav-s{
+    background-color: #F3F3F3;
+}
+p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+}
+.text-s{
+    color: white;
+}
+.text-s-h{
+    color: black;
+}
+
+.roboto{
+    font-family: roboto;
+    font-weight: bold;
+    
+}
+.font-s{
+    font-family: Barlow;
+    margin-right: 14px;
+}
+.font-ss{
+    font-family: Barlow;
+    margin-right: 14px;
+    font-weight: bold;
+    color: black;
+    transition: color 1s;
+}
+.font-ss:hover{
+    color: #60371B;
+}
+.bg-image{
+    margin-top: 54.8px;
+    background-image: url(../images/6831012.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 300px;
+}
+.about-s{
+    margin-top: -180px;
+}
+.name-s{
+    margin-top: 60px;
+}
+.texts-s{
+    font-size: 20px;
+}
+
+.ab-name{
+    font-family: Righteous;
+}
+.res-s{
+    background-color: #F2EDE9;
+    color: #60371B;
+}
+.footer-s{
+    font-family: Roboto Mono;
+}
+.btn-s{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #472B17;
+    color: #472B17;
+    border-radius: 0px;
+    transition: background-color 1s;
+}
+.btn-s:hover{
+    background-color: #472B17;
+    color: white;
+}
+.img-p{
+    width: 491px;
+    height: 331px;
+    object-fit: contain;
+    object-position: center;
+}
+@media (max-width:580px) {
+    .about-s{
+        margin-top: 30px;
+    }
+    .text-s{
+        color: black;
+    }
+    .container{
+        padding: 0%;
+        margin: 0;
+    }
+    .containers{
+        padding: 20px;
+    }
+    .img-p{
+        width: 280px;
+        height: 189px;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+#projects{
+    background-color: #F3F3F3;
+}
+#contact{
+    background-color: #F3F3F3;
+
+}
